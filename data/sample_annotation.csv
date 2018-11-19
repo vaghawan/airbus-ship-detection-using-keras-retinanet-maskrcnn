@@ -1,0 +1,6 @@
+ImageId,x1,y1,x2,y2,classname,mask
+00003e153.jpg,,,,,,
+0001124c7.jpg,,,,,,
+000155de5.jpg,344.0,465.0,448.0,501.0,ship,../input/maskdata/000155de5.jpg1.png
+000194a2d.jpg,469.0,287.0,492.0,307.0,ship,../input/maskdata/000194a2d.jpg0.png
+000194a2d.jpg,67.0,377.0,85.0,386.0,ship,../input/maskdata/000194a2d.jpg1.png
