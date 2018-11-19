@@ -36,7 +36,7 @@ resnet_50_coco_v_0.2.0.h5
 In the model output `boxes` are shaped `(None, None, 4)` (for `(x1, y1, x2, y2)`), scores is shaped `(None, None)` (classification score), labels is shaped `(None, None)` (label corresponding to the score) and masks is shaped `(None, None, 28, 28)`. In all three outputs, the first dimension represents the shape and the second dimension indexes the list of detections.
 In our case, we modled the mask of the result into (NUM_DETECTION, IMAGE_HEIGHT, IMAGE_WIDTH, 1), here IMAGE_HEIGHT and IMAGE_WIDTH is 768 and 768. We applied the Non-Max Suppression and removed the overlapping in the instanc segmented. The detail of the process is in `bin/detect.py` .
 
-![](examples/splash/e604f5aa1.jpgsplash_20181119T140443.png)
+![](examples/splash/5ac801866.jpgsplash_20181114T214354.png)
 ![](examples/splash/0a89c4e4b.jpgsplash_20181114T212223.png)
 
 
