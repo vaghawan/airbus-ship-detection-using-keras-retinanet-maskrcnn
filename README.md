@@ -1,15 +1,9 @@
-# Keras MaskRCNN [![Build Status](https://travis-ci.org/fizyr/keras-maskrcnn.svg?branch=master)](https://travis-ci.org/fizyr/keras-maskrcnn) [![DOI](https://zenodo.org/badge/124870610.svg)](https://zenodo.org/badge/latestdoi/124870610)
+# Detection & Segmentation Of Ship Instances In Satelite Data
+This reposotiries uses the [Keras_MaskRCNN by Fizyr](https://github.com/fizyr/keras-maskrcnn/tree/master/keras_maskrcnn). For more detail about the Keras MaskRCNN, you're suggested to follow the original repo. In this repo, we utilize the data available in [Airbus Ship Detection Competition hosted in kaggle](https://www.kaggle.com/c/airbus-ship-detection) to detect and segment the ship's instances in the statlite images. 
 
+## Our Work
+We don't exactly modify origianl [Keras MaskRCNN](https://github.com/fizyr/keras-maskrcnn/tree/master/keras_maskrcnn) implementation exactly, however we do prepare the data required to fit the model, and perform post-processing of the result and turn that into the result we would get from [Matterport's MASKRCNN implementation](https://github.com/matterport/Mask_RCNN). 
 
-
-Keras implementation of MaskRNN instance aware segmentation as described in [Mask R-CNN](https://arxiv.org/abs/1703.06870)
-by Kaiming He, Georgia Gkioxari, Piotr Dollár, Ross Girshick, using RetinaNet as base.
-
-## Disclaimer
-
-This repository doesn't strictly implement MaskRCNN as described in their paper. The difference is that their paper describes using a RPN to propose ROIs and to use those ROIs to perform bounding box regression, classification and mask estimation simultaneously. Instead, this repository uses RetinaNet to do the bounding box regression and classification and builds a mask estimation head on top of those predictions.
-
-In theory RetinaNet can be configured to act as a RPN network, which would then be identical to MaskRCNN, but doing so would require more layers and complexity than is actually necessary. Less is more :)
 
 ## Installation
 
