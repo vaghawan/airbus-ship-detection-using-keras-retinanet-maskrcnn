@@ -43,7 +43,6 @@ In our case, we modled the mask of the result into (NUM_DETECTION, IMAGE_HEIGHT,
 ## References: 
 
 Lots of references of codes and implemntation were taken from the various sources, which are not least but listed below:
-
 1. [https://github.com/fizyr/keras-maskrcnn/ ]
 2. [https://github.com/matterport/Mask_RCNN] Many of the utility functions were actually the modified version available in the `utility.py` of matterport's Mask RCNN. 
 3. [https://github.com/mirzaevinom/data_science_bowl_2018]. Some of the utility functions were actually modified/used from mirzaevinom implementation. 
